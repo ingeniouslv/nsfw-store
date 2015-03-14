@@ -90,6 +90,11 @@ body, html {
         .splash-video {
             object-fit: cover;
         }
+
+        @media (max-width: $screen-xs-max) {
+          .splash-video { display: none; }
+          background-color: rgb(0,0,0);
+        }
     }
 
     .debug {
